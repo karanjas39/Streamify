@@ -31,20 +31,16 @@ npm run dev
 npm run serve
 ```
 
-## Project Structure
+## Running the Application
 
-streamify/
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── db/ # Mock database for JSON server
-│ ├── lib/ # For constants and tailwind utils
-│ ├── store/ # Redux store and API slices
-│ ├── App.tsx # Main application component
-│ ├── main.tsx # Entry point
-│ └── ...
-├── public/ # Static files
-├── package.json # Project metadata and dependencies
-└── ...
+You can run the application in two ways:
+
+- **Locally** : Follow the steps outlined above to clone the repository, install dependencies, and start the servers.
+- **Live Demo**: Visit [Streamify](https://streamify-speedybrand.vercel.app/) to view the application in action. In the background, run the JSON server with:
+
+```bash
+npm run serve
+```
 
 ## Technologies Used
 
