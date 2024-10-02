@@ -45,7 +45,11 @@ function App() {
             <p>The JSON server is not running.</p>
             <p>
               Please start the JSON server and refresh the page. Click{" "}
-              <a href="https://github.com/karanjas39/Streamify" target="_blank">
+              <a
+                href="https://github.com/karanjas39/Streamify"
+                className="underline font-bold"
+                target="_blank"
+              >
                 here
               </a>{" "}
               to know more.
