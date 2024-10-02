@@ -43,7 +43,13 @@ function App() {
         {!serverRunning ? (
           <div className="text-center text-red-500 text-sm">
             <p>The JSON server is not running.</p>
-            <p>Please start the JSON server and refresh the page.</p>
+            <p>
+              Please start the JSON server and refresh the page. Click{" "}
+              <a href="https://github.com/karanjas39/Streamify" target="_blank">
+                here
+              </a>{" "}
+              to know more.
+            </p>
           </div>
         ) : (
           <Suspense fallback={<Loader />}>
