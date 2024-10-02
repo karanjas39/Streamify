@@ -2,13 +2,6 @@
 
 Streamify is a music streaming analytics dashboard built with React and Vite. This project provides insights into user activity, streaming performance, and revenue generation.
 
-## Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
 ## Getting Started
 
 Follow these steps to get the project up and running on your local machine.
