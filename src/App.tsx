@@ -1,11 +1,5 @@
-import { Button } from "./components/ui/button";
-
 function App() {
-  return (
-    <div className="text-center text-red-950 text-3xl">
-      <Button variant="destructive">Click me</Button>
-    </div>
-  );
+  return <div className="w-full min-h-screen max-h-max my-3"></div>;
 }
 
 export default App;

@@ -1,0 +1,42 @@
+{
+  "metrics": {
+    "totalUsers": 1500,
+    "activeUsers": 500,
+    "totalStreams": 10000,
+    "revenue": 12500,
+    "topArtist": "Artist A"
+  },
+  "userGrowth": {
+    "totalUsers": [
+      100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1200, 1500
+    ],
+    "activeUsers": [50, 80, 100, 120, 140, 160, 180, 200, 220, 240, 300, 500]
+  },
+  "revenueDistribution": [
+    { "source": "Subscriptions", "value": 9000 },
+    { "source": "Ads", "value": 3500 }
+  ],
+  "topSongs": [
+    { "song": "Song 1", "artist": "Artist A", "streamCount": 2000 },
+    { "song": "Song 2", "artist": "Artist B", "streamCount": 1800 },
+    { "song": "Song 3", "artist": "Artist C", "streamCount": 1500 },
+    { "song": "Song 4", "artist": "Artist D", "streamCount": 1200 },
+    { "song": "Song 5", "artist": "Artist E", "streamCount": 1000 }
+  ],
+  "recentStreams": [
+    {
+      "song": "Song 1",
+      "artist": "Artist A",
+      "dateStreamed": "2023-09-01",
+      "streamCount": 200,
+      "userId": 1
+    },
+    {
+      "song": "Song 2",
+      "artist": "Artist B",
+      "dateStreamed": "2023-09-02",
+      "streamCount": 150,
+      "userId": 2
+    }
+  ]
+}
