@@ -8,7 +8,7 @@ import {
 import { metricsApi } from "@/store/api/metricsApi";
 import { Loader } from "../ui/loader";
 
-export function Metrics() {
+export default function Metrics() {
   const { data, isLoading } = metricsApi.useAllMetricsQuery();
 
   if (!data && isLoading) return <Loader />;

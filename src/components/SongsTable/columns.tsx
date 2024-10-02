@@ -3,7 +3,7 @@ import { ArrowDownIcon, ArrowUpIcon } from "@radix-ui/react-icons";
 import { recentStreamsType } from "@/store/api/types/types";
 import { ColumnDef } from "@tanstack/react-table";
 
-const multiFieldFilter = (row: any, columnId: string, filterValue: string) => {
+const multiFieldFilter = (row: any, filterValue: string) => {
   if (!filterValue) return true;
 
   const { song, artist } = row.original;

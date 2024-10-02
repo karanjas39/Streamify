@@ -1,7 +1,11 @@
-import { Metrics } from "@/components/Metrics";
+import React, { Suspense } from "react";
 import Navbar from "@/components/Navbar/Navbar";
-import { DataVisualization } from "./components/DataVisualization";
-import SongsTable from "./components/SongsTable";
+
+const Metrics = React.lazy(() => import("@/components/Metrics/index"));
+const DataVisualization = React.lazy(
+  () => import("./components/DataVisualization")
+);
+const SongsTable = React.lazy(() => import("./components/SongsTable"));
 
 function App() {
   return (
@@ -11,9 +15,11 @@ function App() {
         <p className="w-full text-4xl font-bold text-center">
           Analytics Dashboard
         </p>
-        <Metrics />
-        <DataVisualization />
-        <SongsTable />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Metrics />
+          <DataVisualization />
+          <SongsTable />
+        </Suspense>
       </div>
     </div>
   );

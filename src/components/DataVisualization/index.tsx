@@ -12,7 +12,7 @@ import { RevenueDistributionChart } from "./RevenueChart";
 import { UserGrowthChart } from "./UserGrowthChart";
 import { TopSongsChart } from "./TopSongsChart";
 
-export function DataVisualization() {
+export default function DataVisualization() {
   const { data: revenueDistributionData, isLoading: isLoadingRevenueDist } =
     dataVisualizationApi.useGetRevenueDistributionQuery();
   const { data: userGrowthData, isLoading: isLoadingUserGrowth } =
