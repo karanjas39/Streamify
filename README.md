@@ -1,4 +1,4 @@
-# Streamify
+# [Streamify](https://streamify-speedybrand.vercel.app/)
 
 Streamify is a music streaming analytics dashboard built with React and Vite. This project provides insights into user activity, streaming performance, and revenue generation.
 
@@ -16,8 +16,8 @@ Follow these steps to get the project up and running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/streamify.git
-cd streamify
+git clone https://github.com/karanjas39/Streamify.git
+cd Streamify
 ```
 
 ### 2. Install Dependencies
@@ -36,12 +36,6 @@ npm run dev
 
 ```bash
 npm run serve
-```
-
-### 5. Build for Production
-
-```bash
-npm run build
 ```
 
 ## Project Structure
