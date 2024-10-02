@@ -6,22 +6,34 @@
     "revenue": 12500,
     "topArtist": "Artist A"
   },
-  "userGrowth": {
-    "totalUsers": [
-      100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1200, 1500
-    ],
-    "activeUsers": [50, 80, 100, 120, 140, 160, 180, 200, 220, 240, 300, 500]
-  },
+  "userGrowth": [
+    { "month": "January", "totalUsers": 100, "activeUsers": 50 },
+    { "month": "February", "totalUsers": 150, "activeUsers": 60 },
+    { "month": "March", "totalUsers": 120, "activeUsers": 90 },
+    { "month": "April", "totalUsers": 200, "activeUsers": 70 },
+    { "month": "May", "totalUsers": 250, "activeUsers": 110 },
+    { "month": "June", "totalUsers": 300, "activeUsers": 160 },
+    { "month": "July", "totalUsers": 280, "activeUsers": 130 },
+    { "month": "August", "totalUsers": 320, "activeUsers": 190 },
+    { "month": "September", "totalUsers": 370, "activeUsers": 220 },
+    { "month": "October", "totalUsers": 400, "activeUsers": 240 },
+    { "month": "November", "totalUsers": 350, "activeUsers": 200 },
+    { "month": "December", "totalUsers": 500, "activeUsers": 300 }
+  ],
   "revenueDistribution": [
     { "source": "Subscriptions", "value": 9000 },
-    { "source": "Ads", "value": 3500 }
+    { "source": "Advertisements", "value": 3500 },
+    { "source": "In-app Purchases", "value": 2500 },
+    { "source": "Merchandise Sales", "value": 1500 },
+    { "source": "Live Events", "value": 3000 },
+    { "source": "Affiliate Marketing", "value": 2000 }
   ],
   "topSongs": [
-    { "song": "Song 1", "artist": "Artist A", "streamCount": 2000 },
-    { "song": "Song 2", "artist": "Artist B", "streamCount": 1800 },
-    { "song": "Song 3", "artist": "Artist C", "streamCount": 1500 },
-    { "song": "Song 4", "artist": "Artist D", "streamCount": 1200 },
-    { "song": "Song 5", "artist": "Artist E", "streamCount": 1000 }
+    { "song": "Blinding Lights", "artist": "The Weeknd", "streamCount": 2000 },
+    { "song": "Shape of You", "artist": "Ed Sheeran", "streamCount": 1800 },
+    { "song": "Dance Monkey", "artist": "Tones and I", "streamCount": 1500 },
+    { "song": "Levitating", "artist": "Dua Lipa", "streamCount": 1200 },
+    { "song": "Bad Guy", "artist": "Billie Eilish", "streamCount": 1000 }
   ],
   "recentStreams": [
     {

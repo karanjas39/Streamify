@@ -1,5 +1,6 @@
-import { Metrics } from "@/components/Metrics/index";
+import { Metrics } from "@/components/Metrics";
 import Navbar from "@/components/Navbar/Navbar";
+import { DataVisualization } from "./components/DataVisualization";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           Analytics Dashboard
         </p>
         <Metrics />
+        <DataVisualization />
       </div>
     </div>
   );

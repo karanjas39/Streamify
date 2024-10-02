@@ -5,3 +5,19 @@ export interface metricsType {
   revenue: number;
   topArtist: string;
 }
+export type userGrowthType = {
+  month: string;
+  totalUsers: number;
+  activeUsers: number;
+}[];
+
+export type revenueDistributionType = {
+  source: string;
+  value: number;
+}[];
+
+export type topSongsType = {
+  song: string;
+  artist: string;
+  streamCount: number;
+}[];
