@@ -21,3 +21,11 @@ export type topSongsType = {
   artist: string;
   streamCount: number;
 }[];
+
+export type recentStreamsType = {
+  song: string;
+  artist: string;
+  dateStreamed: string;
+  streamCount: number;
+  userId: number;
+};

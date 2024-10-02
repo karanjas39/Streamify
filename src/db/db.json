@@ -4,7 +4,7 @@
     "activeUsers": 500,
     "totalStreams": 10000,
     "revenue": 12500,
-    "topArtist": "Artist A"
+    "topArtist": "The Weeknd"
   },
   "userGrowth": [
     { "month": "January", "totalUsers": 100, "activeUsers": 50 },
@@ -37,18 +37,60 @@
   ],
   "recentStreams": [
     {
-      "song": "Song 1",
-      "artist": "Artist A",
+      "song": "Blinding Lights",
+      "artist": "The Weeknd",
       "dateStreamed": "2023-09-01",
       "streamCount": 200,
       "userId": 1
     },
     {
-      "song": "Song 2",
-      "artist": "Artist B",
+      "song": "Levitating",
+      "artist": "Dua Lipa",
       "dateStreamed": "2023-09-02",
       "streamCount": 150,
       "userId": 2
+    },
+    {
+      "song": "Stay",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "dateStreamed": "2023-09-03",
+      "streamCount": 300,
+      "userId": 3
+    },
+    {
+      "song": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "dateStreamed": "2023-09-04",
+      "streamCount": 250,
+      "userId": 4
+    },
+    {
+      "song": "Peaches",
+      "artist": "Justin Bieber ft. Daniel Caesar & Giveon",
+      "dateStreamed": "2023-09-05",
+      "streamCount": 180,
+      "userId": 5
+    },
+    {
+      "song": "Montero (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "dateStreamed": "2023-09-06",
+      "streamCount": 220,
+      "userId": 6
+    },
+    {
+      "song": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "dateStreamed": "2023-09-07",
+      "streamCount": 400,
+      "userId": 7
+    },
+    {
+      "song": "Kiss Me More",
+      "artist": "Doja Cat ft. SZA",
+      "dateStreamed": "2023-09-08",
+      "streamCount": 300,
+      "userId": 8
     }
   ]
 }

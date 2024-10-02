@@ -1,6 +1,7 @@
 import { Metrics } from "@/components/Metrics";
 import Navbar from "@/components/Navbar/Navbar";
 import { DataVisualization } from "./components/DataVisualization";
+import SongsTable from "./components/SongsTable";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
         <Metrics />
         <DataVisualization />
+        <SongsTable />
       </div>
     </div>
   );

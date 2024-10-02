@@ -31,7 +31,7 @@ export function Metrics() {
       <CardContent className="grid md:grid-cols-5 sm:grid-cols-1 gap-3">
         <MetricValue description="Total Users" value={totalUsers} />
         <MetricValue description="Active Users" value={activeUsers} />
-        <MetricValue description="Revenue" value={revenue} />
+        <MetricValue description="Revenue" value={`$${revenue}`} />
         <MetricValue description="Top Artist" value={topArtist} />
         <MetricValue description="Total Streams" value={totalStreams} />
       </CardContent>
