@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import Navbar from "@/components/Navbar/Navbar";
+import { Loader } from "./components/ui/loader";
 
 const Metrics = React.lazy(() => import("@/components/Metrics/index"));
 const DataVisualization = React.lazy(
@@ -15,7 +16,7 @@ function App() {
         <p className="w-full text-4xl font-bold text-center">
           Analytics Dashboard
         </p>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loader />}>
           <Metrics />
           <DataVisualization />
           <SongsTable />
