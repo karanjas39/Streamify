@@ -71,6 +71,14 @@ You can run the application in two ways:
 - **Locally** : Follow the steps outlined above to clone the repository, install dependencies, and start the servers.
 - **Live Demo**: Visit [Streamify](https://streamify-speedybrand.vercel.app/) to view the application in action.
 
+## Hono (Cloudflare Workers) Backend for [Streamify](https://streamify-backend.beautifulbooth8.workers.dev/)
+- **[/metrics](https://streamify-backend.beautifulbooth8.workers.dev/metrics)**: Returns the metrics data.
+- **[/userGrowth](https://streamify-backend.beautifulbooth8.workers.dev/userGrowth)**: Returns the userGrowth data.
+- **[/revenueDistribution](https://streamify-backend.beautifulbooth8.workers.dev/revenueDistribution)**: Returns the revenueDistribution data.
+- **[/topSongs](https://streamify-backend.beautifulbooth8.workers.dev/topSongs)**: Returns the topSongs data.
+- **[/recentStreams](https://streamify-backend.beautifulbooth8.workers.dev/recentStreams)**: Returns the recentStreams data.
+
+
 ## Technologies Used
 
 - **Frontend Framework**: React
