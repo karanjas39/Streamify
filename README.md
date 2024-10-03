@@ -69,11 +69,7 @@ npm run serve
 You can run the application in two ways:
 
 - **Locally** : Follow the steps outlined above to clone the repository, install dependencies, and start the servers.
-- **Live Demo**: Visit [Streamify](https://streamify-speedybrand.vercel.app/) to view the application in action. In the background, run the JSON server with:
-
-```bash
-npm run serve
-```
+- **Live Demo**: Visit [Streamify](https://streamify-speedybrand.vercel.app/) to view the application in action.
 
 ## Technologies Used
 
